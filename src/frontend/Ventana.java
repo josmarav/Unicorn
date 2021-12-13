@@ -262,7 +262,7 @@ public class Ventana extends javax.swing.JFrame {
             FileOutputStream fs;
             ObjectOutputStream os;
             
-            fs = new FileOutputStream("/Users/usuario/Desktop/Datos");
+            fs = new FileOutputStream("datos.obj");
             os = new ObjectOutputStream(fs);
             
             for(Persona p : listado)
@@ -278,7 +278,7 @@ public class Ventana extends javax.swing.JFrame {
             FileInputStream fs;
             ObjectInputStream os;
             
-            fs = new FileInputStream("/Users/usuario/Desktop/Datos");
+            fs = new FileInputStream("datos.obj");
             os = new ObjectInputStream(fs);
             
             while(true){
